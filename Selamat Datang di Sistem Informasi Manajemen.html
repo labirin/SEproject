@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Selamat Datang di Aplikasi Matematika</title>
+
+<!-- Mobile Specific Metas======================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="./Selamat Datang di Sistem Informasi Manajemen_files/login.css">
+
+<!-- Bootstrap -->
+<link href="./Selamat Datang di Sistem Informasi Manajemen_files/bootstrap.min.css" rel="stylesheet" media="screen">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="./Selamat Datang di Sistem Informasi Manajemen_files/jquery.min.js.unduhan"></script>
+<script type="text/javascript" src="./Selamat Datang di Sistem Informasi Manajemen_files/bootstrap.min.js.unduhan"></script>
+
+
+</head>
+<body onload="document.getElementById(&#39;txtUserID&#39;).focus()">
+<div class="container"><!--wrapping konten-->
+    	<div id="main_cont" class="well well-sm center-vertical" style="margin-top:117px">
+          <form name="formlogin" method="post" action="#">
+            <div id="login" class="col-md-12">
+              <div id="logo"><img class="img-responsive" src="./Selamat Datang di Sistem Informasi Manajemen_files/bg.jpg"></div>
+              <div class="clr"></div>
+            </div><!--login-->
+            <div class="col-md-12 color-divider">
+            </div><!--strip color divider-->
+            <div id="login_content" class="col-md-12 row">
+              <div class="title col-sm-12 col-md-5 margin-up20px">
+                <h2>Welcome to Mathematics Aplication for Primary School <br>
+                </h2>
+                To login the system, input your  : 
+                <br> 
+                <b>USERNAME</b> and  <b>PASSWORD</b>. 
+                <br> 
+                <br><br>
+              </div>
+              <div class="col-sm-12 col-md-7 row margin-up20px">
+                <div class="teks-yellow col-sm-6 col-md-4">
+                  <label for="txtUserID">Username</label>
+                  <br>
+                  <input type="text" name="txtUserID" id="txtUserID" class="usrname">
+                </div>
+                <div class="teks-yellow col-sm-6 col-md-4" style="height: 0;">
+                  <label for="txtPassword">Password</label>
+                  <br>
+                  <input type="password" name="txtPassword" class="pass">
+                </div>
+                <div class="col-md-4 pull-right">
+                  <input type="submit" name="submit" id="submit" value="Log In">
+                </div>
+                           </div><!--col-md-8-->
+                <br>
+                                 <div class="teks-yellow col-sm-6 col-md-4">
+					<b>For more information, contact admin : (185123123123)</b>
+                </div>
+                <div></div>               
+              </div><!--login content-->
+          </form>
+        </div><!--main-content-->
+        <div class="login-bottom">
+        </div><!--login-bottom-->
+</div>
+
+<script type="text/javascript">
+	
+main = document.getElementById('main_cont');
+var e = window, a = 'inner';
+if ( !( 'innerHeight' in window ) )
+{
+	a = 'client';
+	e = document.documentElement || document.body;
+}
+viewport = e[ a+'Height' ];
+content = main.offsetHeight;
+main.setAttribute("style","margin-top:"+((viewport-content)/2)+"px");
+
+function goSiakad() {
+	window.open("../../siakad");
+}
+
+</script>
+
+
+</body></html>
