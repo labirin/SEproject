@@ -1,2 +1,2 @@
-# SEproject
+# SE-project
 unfinished project
